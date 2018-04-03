@@ -1,0 +1,17 @@
+package pack1;
+
+public class Restaurent {
+	IHotDrink hotDrink;
+	
+	
+
+
+	 Restaurent(IHotDrink hotDrink) {
+		this.hotDrink=hotDrink;
+	}
+
+
+	public void prepareHotDrink()
+	{hotDrink.prepareHotDrink();
+}
+}

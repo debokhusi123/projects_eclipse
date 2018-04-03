@@ -1,0 +1,15 @@
+package pack1;
+
+public class Restaurent {
+	String welcomenote;
+
+	
+	public void setWelcomenote(String welcomenote) {
+		this.welcomenote = welcomenote;
+	}
+
+
+	public void greetCustomer()
+	{System.out.println(welcomenote);
+}
+}

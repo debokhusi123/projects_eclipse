@@ -1,0 +1,14 @@
+package pack1;
+
+import java.util.List;
+
+public class Restaurent {
+	private List restaurentWaitersList;
+	public void setRestaurentWaitersList(List restaurentWaitersList)
+	{this.restaurentWaitersList=restaurentWaitersList;
+	}
+	public void displayWaitersNames()
+	{System.out.println("all waiters working in restaurent:"+restaurentWaitersList);
+	}
+}
+	

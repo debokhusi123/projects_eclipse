@@ -1,0 +1,4 @@
+127.0.0.1 - - [07/Mar/2018:17:41:24 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:17:41:25 +0530] "GET /restful-demo/ HTTP/1.1" 404 977
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:17:42:27 +0530] "GET /restful-demo/demo/getCustomer HTTP/1.1" 404 1009
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:17:43:27 +0530] "GET /restful-demo/rest/demo/getCustomer HTTP/1.1" 200 151

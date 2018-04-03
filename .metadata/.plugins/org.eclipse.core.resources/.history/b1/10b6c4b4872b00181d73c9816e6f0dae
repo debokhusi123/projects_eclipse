@@ -1,0 +1,21 @@
+package pack1;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+
+public class TestSpringProject {
+
+	public static void main(String[] args) {
+		ApplicationContext context=new ClassPathXmlApplicationContext("bean.xml");
+		Restaurent rObj1=(Restaurent) context.getBean("restaurentBean");
+		
+		rObj1.setWelcomeNote("object1 is setting welcome note property");
+		rObj1.greetCustomer();
+		Restaurent rObj2=(Restaurent) context.getBean("restaurentBean");
+		rObj2.greetCustomer();
+
+	}
+
+}

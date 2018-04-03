@@ -1,0 +1,7 @@
+package pack1;
+
+public class Restaurent {
+	public void greetCustomer()
+	{System.out.println("welcome to our restaurent");
+}
+}
